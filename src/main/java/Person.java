@@ -1,7 +1,7 @@
 public class Person {
     //Instance vars
-    public String firstName;
-    public String lastName;
+    private String firstName;
+    private String lastName;
 
     //Constructor
     public Person(String firstName, String lastName) 
