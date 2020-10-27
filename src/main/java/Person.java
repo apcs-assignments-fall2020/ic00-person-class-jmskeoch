@@ -17,6 +17,28 @@ public class Person {
         return "I am " + activity;
     }
 
+    //getters
+    public String getFirstName() 
+    {
+        return this.firstName;
+    }
+
+    public String getLastName()
+    {
+        return this.lastName;
+    }
+
+    //setters
+    public void setFirstName(String f)
+    {
+        this.firstName = (f.trim().length() != 0) ? f : this.firstName;
+    }
+
+    public void setLastName(String l) 
+    {
+        this.lastName = (l.trim().length() != 0) ? l : this.lastName;
+    }
+
     //To String method
     @Override
     public String toString() 
